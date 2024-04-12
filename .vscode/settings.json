@@ -1,0 +1,27 @@
+{
+    "files.exclude": {
+        "**/*.exe": true
+    },
+    "C_Cpp.vcFormat.indent.accessSpecifiers": true,
+    "sqltools.connections": [],
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "iostream": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp",
+        "vector": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp",
+        "ostream": "cpp",
+        "bitset": "cpp",
+        "utility": "cpp",
+        "cmath": "cpp",
+        "random": "cpp"
+    }
+}
