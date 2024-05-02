@@ -13,21 +13,21 @@ void generateSubsets(vector<int> &nums, int index, vector<int> &current, set<vec
     uniqueSubsets.insert(current);
 
     // Generate subsets by including the current element
-    for (int i = index; i < nums.size(); ++i)
+    if (index < nums.size())
     {
-        current.push_back(nums[i]);
-        generateSubsets(nums, i + 1, current, uniqueSubsets);
+        current.push_back(nums[index]);
+        generateSubsets(nums, index + 1, current, uniqueSubsets);
         current.pop_back(); // Backtrack
+        generateSubsets(nums, index + 1, current, uniqueSubsets);
     }
 }
-
 void printUniqueSubsets(vector<int> &nums)
 {
     set<vector<int>> uniqueSubsets;
     vector<int> current;
 
     // Include the empty subset
-    uniqueSubsets.insert(current);
+    // uniqueSubsets.insert(current);
 
     generateSubsets(nums, 0, current, uniqueSubsets);
 
