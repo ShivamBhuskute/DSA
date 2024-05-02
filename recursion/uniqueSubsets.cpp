@@ -47,7 +47,7 @@ void printUniqueSubsets(vector<int> &nums)
 
 int main()
 {
-    vector<int> nums = {1, 1, 3};
+    vector<int> nums = {1, 2, 2};
     cout << "Unique subsets:" << endl;
     printUniqueSubsets(nums);
     return 0;
