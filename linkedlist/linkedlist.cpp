@@ -74,14 +74,14 @@ int main()
 
     print(head);
 
-    // insertAtHead(head, 15);
-    // insertAtHead(head, 12);
-    insertAtTail(tail, 12);
-    insertAtTail(tail, 15);
+    insertAtHead(head, 15);
+    insertAtHead(head, 12);
+    // insertAtTail(tail, 12);
+    // insertAtTail(tail, 15);
 
-    print(head);
+    // print(head);
 
-    insertAtPosition(head, 3, 45);
+    // insertAtPosition(head, 3, 45);
 
     print(head);
 
