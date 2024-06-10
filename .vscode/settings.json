@@ -23,5 +23,14 @@
         "utility": "cpp",
         "cmath": "cpp",
         "random": "cpp"
-    }
+    },
+    // "[c]": {
+    //     "editor.defaultFormatter": "xaver.clang-format"
+    // },
+    // "[cpp]": {
+    //     "editor.defaultFormatter": "xaver.clang-format"
+    // },
+    // "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, BreakBeforeBraces: Attach }",
+    // "C_Cpp.clang_format_style": "file",
+    // "C_Cpp.clang_format_path": "path/to/clang-format" // Optional if you have clang-format installed in a custom path
 }
