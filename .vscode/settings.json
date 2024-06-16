@@ -22,7 +22,8 @@
         "bitset": "cpp",
         "utility": "cpp",
         "cmath": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "algorithm": "cpp"
     },
     // "[c]": {
     //     "editor.defaultFormatter": "xaver.clang-format"
