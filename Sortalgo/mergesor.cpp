@@ -6,6 +6,7 @@ void merge(vector<int> &arr, int low, int mid, int high)
     vector<int> temp;
     int left = low;
     int right = mid + 1;
+    // divide the array in 2 parts
     while (left <= mid && right <= high)
     {
         if (arr[left] <= arr[right])
