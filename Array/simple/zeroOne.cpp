@@ -14,7 +14,7 @@ vector<int> moveZero(vector<int> &arr) {
         if (arr[i] == 0) {
             swap(arr[i], arr[end]);
             end--;
-        } 
+        }
     }
     return arr;
 }
