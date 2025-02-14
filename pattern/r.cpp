@@ -5,7 +5,7 @@ void reverseStarTriangle(int n) {
   for (int i = n; i >= 1; i--) {
     // Print spaces
     for (int j = 1; j <= n - i; j++) {
-      cout << " ";
+      cout << "1";
     }
 
     // Print stars

@@ -3,10 +3,9 @@
 // #include <vector>
 using namespace std;
 
-int duplicate(vector<int> &a)//brute
-{
+int duplicate(vector<int> &a) {// brute 
     set<int> st;
-    for(int i = 0; i < a.size(); i++) {
+    for (int i = 0; i < a.size(); i++) {
         st.insert(a[i]);
     }
 
@@ -31,14 +30,12 @@ int duplicate(vector<int> &a)//brute
 //     }
 //     return i + 1;
 // }
-int main()
-{
+int main() {
     int n;
     cin >> n;
 
     vector<int> a(n);
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
     cout << duplicate(a);

@@ -1,34 +1,25 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-bool isSorted(int n, vector<int> &a)
-{
-    for (int i = 1; i < n; i++)
-    {
-        if (a[i] < a[i - 1])
-        {
+bool isSorted(int n, vector<int> &a) {
+    for (int i = 1; i < n; i++) {
+        if (a[i] < a[i - 1]) {
             return false;
         }
     }
     return true;
 }
-int main()
-{
+int main() {
     int n;
     vector<int> a(n);
     cin >> n;
 
-    
-    for (int i = 0; i < n; i++)
-    {
+    for (int i = 0; i < n; i++) {
         cin >> a[i];
     }
-    if (isSorted(n, a))
-    {
+    if (isSorted(n, a)) {
         cout << "1";
-    }
-    else
-    {
+    } else {
         cout << "0";
     }
     return 0;

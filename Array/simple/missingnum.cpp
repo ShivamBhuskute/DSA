@@ -35,19 +35,16 @@ using namespace std;
     return (xor1 ^ xor2); // the missing number
 }*/
 
-int missing(vector<int> &a, int n)
-{
+int missing(vector<int> &a, int n) {
     int sum = (n * (n + 1)) / 2;
     int arrsum = 0;
-    for (int i = 0; i < n-1; i++)
-    {
+    for (int i = 0; i < n - 1; i++) {
         arrsum += a[i];
     }
 
     return (sum - arrsum);
 }
-int main()
-{
+int main() {
     int n = 5;
     vector<int> a = {1, 3, 4, 5};
     int ans = missing(a, n);

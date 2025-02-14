@@ -22,3 +22,11 @@ void alphaTriangle(int n) {
         cout << '\n';
     }
 }
+
+int main()
+{
+    int n;
+    cin >> n;
+    alphaTriangle(n);
+    return 0;
+}

@@ -24,7 +24,7 @@ vector<int> f(vector<int> &arr, int n, vector<int> &ans)
 int main()
 {
     vector<int> ans;
-    vector<int> arr = {148, 162, 85, 18, 107, 32};// 10, 96, 22, 12, 3, 0, 6
+    vector<int> arr = {148, 162, 85, 18, 107, 32}; // 10, 96, 22, 12, 3, 0, 6
     f(arr, arr.size(), ans);
     // cout << arr[arr.size() - 1];
     for (int i = 0; i < ans.size(); i++)
