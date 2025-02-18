@@ -1,7 +1,7 @@
-#include <iostream>
-#include <vector>
 #include <climits>
+#include <iostream>
 #include <map>
+#include <vector>
 using namespace std;
 
 // bool f(string s)
@@ -18,18 +18,14 @@ using namespace std;
 //     }
 // }
 
-int main()
-{
+int main() {
     string s = "xyyz";
     map<char, int> mpp;
-    for (int i = 0; i < s.size(); i++)
-    {
+    for (int i = 0; i < s.size(); i++) {
         mpp[s[i]]++;
     }
-    for (auto it : mpp)
-    {
-        if(it.second > 0)
-        cout << it.second << "\n";
+    for (auto it : mpp) {
+        if (it.second > 0) cout << it.second << "\n";
     }
     return 0;
 }
